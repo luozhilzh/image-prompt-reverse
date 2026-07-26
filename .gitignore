@@ -1,0 +1,26 @@
+# ===== OS / filesystem cruft =====
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== Editor / IDE temp files =====
+*~
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# ===== Common editor/IDE dirs (uncomment if you don't track them) =====
+# .idea/
+# .vscode/
+# .cursor/
+
+# ===== Node / Python (not used by this skill, kept for safety) =====
+node_modules/
+__pycache__/
+*.pyc
+
+# ===== Logs / local notes =====
+*.log
