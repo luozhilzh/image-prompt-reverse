@@ -133,16 +133,117 @@
 
 ---
 
-## 可选类速查 (Optional Scenarios — 维度骨架，按需扩展)
-- **珠宝/腕表**：金属高光、黑底金边、微距景深、切面反光
-- **宠物/动物**：毛发质感、眼神光、动态瞬间
-- **街拍/城市**：candid 瞬间、环境叙事、自然光、焦段
-- **婚礼/活动**：情绪捕捉、灯光氛围、仪式构图
-- **3D/抽象**：C4D 质感、玻璃/金属、渐变、体积光
-- **概念艺术/原画**：世界观、笔触、光影戏剧、尺度
-- **海报/平面**：排版、字体、图形、负空间
-- **运动/健身**：动态、速度感、肌肉线条
-- **头像/社媒**：紧凑构图、背景虚化、表情
+## 可选场景完整维度 (Optional Scenarios — 完整维度，按需选用)
+
+> 以下 9 类在主流程 5+5+兜底之外，按需反推。维度格式与主类一致。
+
+## 11. 珠宝 / 腕表 (Jewelry & Watch)
+- **金属高光 Metal Highlight**：抛光/拉丝/镜面，反光点位置
+  - polished / brushed / mirror finish, specular hotspot
+- **切面反光 Facet Reflection**：宝石刻面、棱镜色散、火彩
+  - gemstone facets / prismatic dispersion / fire
+- **微距景深 Macro DoF**：极浅景深、焦点锐利、焦点堆叠
+  - macro f/8 focus stack, razor-sharp focal point
+- **黑底金边 Dark BG & Gold Rim**：深背景、金色边缘光分离
+  - black background, golden rim light separation
+- **材质 Material**：金/银/铂/钻石/陶瓷/钛
+  - gold / silver / platinum / diamond / ceramic / titanium
+
+## 12. 宠物 / 动物 (Pet & Animal)
+- **毛发质感 Fur Texture**：蓬松/顺滑/绒毛/湿漉
+  - fluffy / sleek / downy / wet fur
+- **眼神光 Catchlight**：眼睛高光、灵性、焦点清晰
+  - eye catchlight, soulful gaze, sharp eye focus
+- **动态瞬间 Motion**：奔跑/扑跃/定格/摇尾
+  - running / pouncing / frozen action / tail wag
+- **姿态 Pose**：坐/卧/警觉/互动
+  - sitting / lying / alert stance / interacting
+- **环境 Environment**：室内/自然/棚拍
+  - indoor / natural / studio
+
+## 13. 街拍 / 城市 (Street & Urban)
+- **candid 瞬间 Candid Moment**：偷拍感、自然、不经意
+  - candid / unposed / fleeting
+- **环境叙事 Environmental Story**：建筑/路牌/人群/天气
+  - architecture / signage / crowd / weather
+- **自然光 Natural Light**：阴天/霓虹/夕照/橱窗
+  - overcast / neon / sunset / storefront glow
+- **焦段 Focal Length**：35mm 叙事/50mm 标准/85mm 压缩
+  - 35mm storytelling / 50mm standard / 85mm compression
+- **色彩调性 Color Tone**：高对比都市/柔和胶片
+  - high-contrast urban / soft filmic
+
+## 14. 婚礼 / 活动 (Wedding & Event)
+- **情绪捕捉 Emotion**：喜悦/泪光/相拥/凝望
+  - joy / tears / embrace / gaze
+- **灯光氛围 Lighting Mood**：暖烛光/串灯/舞台光/自然
+  - warm candlelight / string lights / stage / natural
+- **仪式构图 Ceremony Composition**：通道/拱门/对称/俯仰
+  - aisle / arch / symmetric / high-low angle
+- **细节 Detail**：戒指/花束/请柬/餐桌
+  - rings / bouquet / invitation / table setting
+- **色调 Tone**：暖白/复古/清新/电影
+  - warm white / vintage / fresh / cinematic
+
+## 15. 3D / 抽象 (3D & Abstract)
+- **质感 Material**：玻璃/金属/磨砂/亚克力/液体
+  - glass / metal / frosted / acrylic / liquid
+- **渐变 Gradient**：色相过渡/柔和晕染/双色
+  - hue gradient / soft bloom / duotone
+- **体积光 Volumetric Light**：光束/尘埃/雾/辉光
+  - light beam / dust motes / haze / glow
+- **几何 Geometry**：球体/晶格/流体/分形
+  - sphere / lattice / fluid / fractal
+- **渲染感 Render**：C4D / Octane / Blender / Redshift 风格
+  - C4D / Octane / Blender / Redshift style
+
+## 16. 概念艺术 / 原画 (Concept Art)
+- **世界观 World-building**：地貌/阵营/科技层级
+  - biome / faction / tech level
+- **笔触 Brush**：厚涂/速涂/数字/半透明
+  - impasto / speedpaint / digital / translucent
+- **光影戏剧 Dramatic Light**：神光/逆光/体积/冷暖对抗
+  - god rays / backlight / volumetric / warm-cool duel
+- **尺度 Scale**：宏大/渺小/史诗/亲密
+  - epic / minuscule / monumental / intimate
+- **色调 Palette**：冷暖对比/统一调性/去饱和
+  - warm-cool contrast / unified tone / desaturated
+
+## 17. 海报 / 平面 (Poster & Graphic)
+- **排版 Layout**：网格/居中/对角/破格
+  - grid / centered / diagonal / break-grid
+- **字体 Type**：衬线/无衬线/展示体/手写
+  - serif / sans / display / handwritten
+- **图形构成 Composition**：图形/插图/照片/混合
+  - shape / illustration / photo / mixed
+- **负空间 Negative Space**：留白/出血/满版
+  - whitespace / bleed / full-bleed
+- **配色 Palette**：双色/多色/渐变/撞色
+  - duotone / multicolor / gradient / clashing
+
+## 18. 运动 / 健身 (Sports & Fitness)
+- **动态 Motion**：冲刺/跳跃/发力/扭转
+  - sprint / jump / exertion / twist
+- **速度感 Speed**：动态模糊/拖影/定格峰值
+  - motion blur / trailing / frozen peak
+- **肌肉线条 Muscle**：张力/线条/汗水/血管
+  - tension / definition / sweat / veins
+- **环境 Environment**：场馆/户外/工作室/街头
+  - arena / outdoor / studio / street
+- **光线 Light**：硬光塑形/高对比/轮廓光
+  - hard light shaping / high contrast / rim
+
+## 19. 头像 / 社媒 (Avatar & Social)
+- **紧凑构图 Tight Framing**：头像框/肩以上/特写
+  - headshot frame / above shoulders / close-up
+- **背景虚化 BG Blur**：柔化/纯色/渐变/虚化光斑
+  - softened / solid / gradient / bokeh
+- **表情 Expression**：自然微笑/专业/活力/思考
+  - natural smile / professional / energetic / pensive
+- **光线 Light**：环形光/窗光/柔光/蝴蝶光
+  - ring light / window / soft / butterfly
+- **色调 Tone**：明亮/清新/高级灰/胶片
+  - bright / fresh / muted elegant / filmic
 
 ---
 
