@@ -70,6 +70,32 @@ lighting, fantastical environment, volumetric light
 
 ---
 
+## 配色控制卡 (Color Control Card)
+
+借鉴分层镜头叙事规范，把"色彩"从一句形容词升级为**可约束的色板**。反推时从原图提取
+6–10 个实际核心色，按角色排列，作为还原版与惊艳版的**色彩约束**（尤其服务色彩分级与保真）。
+
+**推荐色角色（按顺序）**
+1. 最深阴影 deepest shadow
+2. 基础暗部 base shadow
+3. 环境主色 environment main color
+4. 空气/天气色 air / weather color
+5. 主光或轮廓光 key / rim light
+6. 地面/材质反射 ground / reflection
+7. 主体肤色或主材质色 subject skin / main material
+8. 暖色点缀 warm accent
+9. 最亮高光 brightest highlight
+
+**用法**
+- 在还原版/惊艳版末尾追加：`color palette: #xxxxxx deepest shadow, #xxxxxx environment main, #xxxxxx warm accent, ...`（色值可用近似十六进制或文字描述）。
+- 惊艳版的色彩分级（青橙/低饱和/胶片色等）应**在控制卡范围内做偏移**，而非凭空造色，保证与原图同源。
+
+**铁律（负向）**
+- 配色条/控制卡**仅用于色彩分级参考**；提示词中必须禁止把色块、条纹、图案或文字色值表加入画面：
+  `no color swatches, no palette bars, no color stripes, no text labels in image`
+
+---
+
 ## 负向提示词库 (Negative Prompts)
 
 **通用 Universal**
