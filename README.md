@@ -1,5 +1,7 @@
 # image-prompt-reverse
 
+![version](https://img.shields.io/badge/version-1.0.1-blue) ![released](https://img.shields.io/badge/status-released-brightgreen)
+
 > [English](README_en.md) · 中文
 
 **图像反推提示词工程师 Skill** —— 把一张图反推成专业级 AI 图像提示词，并独家叠加「惊艳增强层」，把"还原同款"升级为电影感 / 胶片感 / 商业大片。
@@ -62,6 +64,7 @@ image-prompt-reverse/
 │   ├── assets/
 │   │   └── case-01-input.jpg 测试输入图
 │   └── NOTICE-assets.md     图片授权与署名
+├── RELEASE_NOTES.md         发行说明（v1.0.1）
 ├── README.md
 ├── README_en.md
 └── LICENSE

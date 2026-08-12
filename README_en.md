@@ -1,5 +1,7 @@
 # image-prompt-reverse
 
+![version](https://img.shields.io/badge/version-1.0.1-blue) ![released](https://img.shields.io/badge/status-released-brightgreen)
+
 **Image Prompt Reverse-engineering Skill** — reverse-engineer any image into professional-grade
 AI image-generation prompts, with a unique "stunning enhancement layer" that upgrades a faithful
 recreation into a cinematic / filmic / commercial blockbuster look.
@@ -65,6 +67,7 @@ image-prompt-reverse/
 │   ├── assets/
 │   │   └── case-01-input.jpg   test input image
 │   └── NOTICE-assets.md      image license & attribution
+├── RELEASE_NOTES.md         release notes (v1.0.1)
 ├── README.md
 ├── README_en.md
 └── LICENSE
