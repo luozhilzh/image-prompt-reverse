@@ -1,6 +1,7 @@
 ---
 name: image-prompt-reverse
 description: "反推一张图生成专业级 AI 图像提示词（Midjourney/DALL-E/Stable Diffusion/Flux），独家叠加惊艳增强层把还原同款升级为电影感/胶片感/商业大片。覆盖通用/字体Logo/风景/摄影人像/插画/产品/美食/建筑室内/时尚/汽车等场景，输出还原版+惊艳版+3变体+平台适配版。Use when reversing an image into a prompt or crafting stunning image-generation prompts for MJ/DALL-E/SD/Flux."
+version: 1.0.1
 ---
 
 # Image Prompt Reverse — 图像反推提示词工程师
@@ -13,12 +14,16 @@ AI 图像生成提示词。你掌握摄影的布光、镜头、色彩分级语�
 （laniameda/image-to-prompt 的 7 层电影公式、Trae 的最小追问、content-to-prompt 的原创边界等）
 \+ 本 skill **独有的「惊艳增强层」**（现有开源 skill 都没有做的一层）。
 
+> **跨工具兼容**：本 Skill 基于标准 agent-skills 格式（`SKILL.md` + `references/`），**不依赖任何特定客户端**。可原样用于 WorkBuddy、Claude Code、Cursor、Codex 及任意支持「Skill / 长指令 / 系统提示词」的 agent。各工具加载方式见 `tests/README.md` 的「在各类工具中复现」，根目录 `README.md` 的「安装 / 跨工具加载」节亦含相同说明。唯一 WorkBuddy 专属能力为 Step 8 的 opt-in 出图验证；其他工具无此入口时会退化为仅交付提示词，不影响 Step 0–7 输出包。
+
 ## 何时使用（触发词）
 - "反推这张图 / 这张图用什么提示词 / reverse this image"
 - "把这张图变成提示词 / 生成同款"
 - "写个惊艳的 / 大片感的 / 电影感的 / 胶片味的图像提示词"
 - "优化这段粗糙提示词 / 结构化我的提示词"
 - "从零写一段产品 / 人像 / 风景的提示词"
+
+> **触发边界**：以上入口仅当明确指向图像 / 图像生成模型（MJ / DALL·E / SD / Flux）时触发；纯文本类 LLM 提示词优化请走专用 Skill。
 
 ## 核心能力
 1. **拆图反推**：看图 → 按场景套维度表 → 产出结构化「图像分析块」
@@ -83,6 +88,7 @@ prompt-model-adaptation 五步法：诊断→检查表→适配→回归验证�
 ### Step 8 ｜ 出图验证（默认关，opt-in）
 默认只交付"目标平台专属、可复制粘贴"的提示词，由用户在真实平台出图（最真实）。
 若用户明确授权且接受积分，可用 WorkBuddy 内置 ImageGen 跑近似验证（≠ 目标平台真图）。
+若用户未授权、无积分或 ImageGen 不可用，则退化为仅交付提示词（不出图），不影响前述输出包。
 
 ## 交付前自检清单（Quality Gate）
 交付前逐段核对（借鉴分层镜头叙事规范的自检纪律，适配为提示词 QA）：
@@ -97,6 +103,9 @@ prompt-model-adaptation 五步法：诊断→检查表→适配→回归验证�
 任一项不通过，只修订对应段，不整体重来。
 
 ## 场景维度速查（完整表见 references/reverse-dimensions.md）
+
+> 下表为速查摘要；完整维度定义、观察要点与关键词示例见 `references/reverse-dimensions.md`。
+
 | 场景 | 关键维度 |
 |---|---|
 | 通用图 | 主体/风格/色彩/光影/构图/质感/氛围/分辨率 |
@@ -114,6 +123,9 @@ prompt-model-adaptation 五步法：诊断→检查表→适配→回归验证�
 可选类（珠宝/宠物/街拍/婚礼/3D/概念艺术/海报/运动/头像）维度见速查表。
 
 ## 惊艳方向速查（词库见 references/enhancement-vocab.md）
+
+> 下表为 14 个方向名称速查；可直接嵌入的专业词块、配色控制卡、负向词库与组合示例见 `references/enhancement-vocab.md`。
+
 电影大片感 · 低调奢华 · 古典油画 · 胶片复古味 · 纪实纪录片 · 日系自然光 · 杂志商业高级 ·
 梦幻氛围 · 赛博朋克 · 国风东方 · 动漫二次元 · 蒸汽波 · 超写实产品级 · 史诗奇幻
 （可组合，如"电影感 + 胶片味"）
