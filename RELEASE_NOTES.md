@@ -127,4 +127,21 @@ A quality-and-docs patch release: **adds the missing frontmatter version field, 
 - Step 7 输出包新增固定收尾许可句：「同款已交付；想要更大胆的一版，说一声就升级。」
 
 **文档（Docs）**
-- `README.md` 版本徽标与发行说明行同步至 v1.1.0。
+- `README.md` / `README_en.md` 版本徽标与发行说明行同步至 v1.1.0。
+
+---
+
+## English
+
+### Summary
+The "ambition dimension" release: upgrading "recreating the same image" to "**serving the goal**". Step 2 adds a purpose-goal question (height), the pre-delivery checklist adds a goal-achievement item (depth), and the output package adds a fixed permission sentence (psychological layer). No breaking changes; fully backward compatible.
+
+### Changes
+
+**Added**
+- Step 2 "purpose goal" promoted to the first-priority question: who the image is for, and what reaction or action it should provoke; the enhancement direction now follows the goal.
+- Pre-delivery checklist gains a "goal achieved" item: verify goal acceptance points before quality.
+- Step 7 output package gains a fixed closing line: "Same version delivered; want a bolder one — just say the word."
+
+**Docs**
+- `README.md` / `README_en.md` version badges and release-notes lines synced to v1.1.0.
