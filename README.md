@@ -1,6 +1,6 @@
 # image-prompt-reverse
 
-![version](https://img.shields.io/badge/version-1.0.1-blue) ![released](https://img.shields.io/badge/status-released-brightgreen)
+![version](https://img.shields.io/badge/version-1.1.0-blue) ![released](https://img.shields.io/badge/status-released-brightgreen)
 
 > [English](README_en.md) · 中文
 
@@ -11,7 +11,7 @@
 - **惊艳增强层**：14 个惊艳方向词库（电影感 / 胶片味 / 商业高级 / 赛博朋克 / 国风…）可自由组合
 - **3 变体**：构图 shift / 光影 shift / 风格 shift（单点改，多选项）
 - **平台适配**：Midjourney / DALL·E / Stable Diffusion / Flux
-- **输出包**：图像分析块 + 还原版 + 惊艳增强版 + 3 变体 + 平台版 + 负向约束 + 原创边界
+- **输出包**：图像分析块 + 还原版 + 惊艳增强版 + 3 变体 + 平台版 + 负向约束 + 原创边界 + 固定升级许可句
 - **协同**：与 `prompt-model-adaptation` 方法论复用（Step 6 套其五步法）
 
 ## 安装 / 跨工具加载
@@ -42,7 +42,7 @@ agent-skills 原生支持，会自动发现 `SKILL.md`；也可在 `CLAUDE.md` �
 
 ## 使用流程
 1. 给一张图（或描述意图）
-2. skill 自动拆图 → 最小追问（1–2 个：平台 / 惊艳方向 / 用途）
+2. skill 自动拆图 → 最小追问（1–2 个：用途目标 / 平台 / 惊艳方向）
 3. 产出：还原版 + 惊艳增强版 + 3 变体 + 平台适配版
 
 详见 [`SKILL.md`](SKILL.md)。
@@ -64,7 +64,7 @@ image-prompt-reverse/
 │   ├── assets/
 │   │   └── case-01-input.jpg 测试输入图
 │   └── NOTICE-assets.md     图片授权与署名
-├── RELEASE_NOTES.md         发行说明（v1.0.1）
+├── RELEASE_NOTES.md         发行说明（v1.1.0）
 ├── README.md
 ├── README_en.md
 └── LICENSE

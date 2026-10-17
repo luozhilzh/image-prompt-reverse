@@ -1,6 +1,6 @@
 # image-prompt-reverse
 
-![version](https://img.shields.io/badge/version-1.0.1-blue) ![released](https://img.shields.io/badge/status-released-brightgreen)
+![version](https://img.shields.io/badge/version-1.1.0-blue) ![released](https://img.shields.io/badge/status-released-brightgreen)
 
 **Image Prompt Reverse-engineering Skill** — reverse-engineer any image into professional-grade
 AI image-generation prompts, with a unique "stunning enhancement layer" that upgrades a faithful
@@ -14,7 +14,7 @@ recreation into a cinematic / filmic / commercial blockbuster look.
 - **3 variants**: composition shift / lighting shift / style shift (single-axis changes)
 - **Platform adaptation**: Midjourney / DALL·E / Stable Diffusion / Flux
 - **Output package**: analysis block + faithful version + enhanced version + 3 variants +
-  platform version + negatives + originality boundary
+  platform version + negatives + originality boundary + fixed upgrade offer
 - **Synergy**: reuses `prompt-model-adaptation` methodology (Step 6 follows its 5-step method)
 
 ## Install / Load across tools
@@ -45,7 +45,7 @@ Paste the `SKILL.md` body (+ `references/*.md` as needed) as the system prompt /
 
 ## Usage
 1. Give an image (or describe intent)
-2. The skill deconstructs it → asks 1–2 minimal questions (platform / direction / use)
+2. The skill deconstructs it → asks 1–2 minimal questions (purpose / platform / direction)
 3. Output: faithful + enhanced + 3 variants + platform-adapted prompts
 
 See [`SKILL.md`](SKILL.md).
@@ -67,7 +67,7 @@ image-prompt-reverse/
 │   ├── assets/
 │   │   └── case-01-input.jpg   test input image
 │   └── NOTICE-assets.md      image license & attribution
-├── RELEASE_NOTES.md         release notes (v1.0.1)
+├── RELEASE_NOTES.md         release notes (v1.1.0)
 ├── README.md
 ├── README_en.md
 └── LICENSE

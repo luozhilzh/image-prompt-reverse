@@ -106,3 +106,25 @@ A quality-and-docs patch release: **adds the missing frontmatter version field, 
 - `SKILL.md` (version / trigger boundary / Step 8 degradation / cross-tool note / table pointers)
 - `README.md` / `README_en.md` (dependencies & maintenance + install / cross-tool paths)
 - `tests/` (added: README.md / case-01-crt-sand-sky.md / assets/case-01-input.jpg / NOTICE-assets.md)
+
+# image-prompt-reverse v1.1.0
+
+> 发布日期：2026-10-17 ｜ 类型：Minor（新增目标对齐能力）｜ 相对版本：v1.0.1
+> 作者：luozhi ｜ License：MIT
+
+---
+
+## 中文
+
+### 摘要
+本版本为「雄心维度」升级：把"还原同款"升级为"**为目标服务**"。Step 2 新增用途目标一问（高度）、交付前自检新增目标达成项（深度）、输出包新增固定许可句（心理层）。无破坏性变更，向后兼容。
+
+### 变更明细
+
+**新增（Added）**
+- Step 2「用途目标」升为第一优先问题：给谁看、要让人产生什么反应或动作；惊艳方向跟着目标走。
+- 交付前自检清单新增「目标达成」项：先验目标验收点，再验质量。
+- Step 7 输出包新增固定收尾许可句：「同款已交付；想要更大胆的一版，说一声就升级。」
+
+**文档（Docs）**
+- `README.md` 版本徽标与发行说明行同步至 v1.1.0。
